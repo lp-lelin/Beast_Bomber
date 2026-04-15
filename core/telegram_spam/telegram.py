@@ -1,17 +1,18 @@
 """
-╔═════════════════════════════════════════════════════════════════════════════════╗
-║                                                                                 ║
-║                                   Beast bomber                                  ║
-║  Author:                                                                        ║
-║  https://github.com/un1ucm                                                      ║
-║                                                                                 ║
-║  The author of this program is not responsible for its use!                     ║
-║  When posting this code on other resources, please indicate the author!         ║
-║                                                                                 ║
-║                               All rights reserved.                              ║
-║                            Copyright (C) 2024 un1ucm                            ║
-║                                                                                 ║
-╚═════════════════════════════════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║                                   Beast bomber                 ║
+║  Author:                                                       ║
+║  https://github.com/un1ucm                                     ║
+║                                                                ║
+║  The author of this program is not responsible for its use!    ║
+║  When posting this code on other resources, please indicate    ║
+║  the author!                                                   ║
+║                                                                ║
+║                               All rights reserved.             ║
+║                            Copyright (C) 2024 un1ucm           ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
 """
 import os
 import time
@@ -25,11 +26,11 @@ import urllib3
 from sys import platform
 from pythonping import ping
 from datetime import datetime
-from opentele.td import TDesktop
+from opentele2.td import TDesktop
 from threading import Thread, Lock
 from fake_useragent import UserAgent
 from colorama import Fore, Style, Back, init
-from opentele.api import UseCurrentSession, CreateNewSession
+from opentele2.api import UseCurrentSession, CreateNewSession
 from core.etc.functions import logo_telegram, get_lang, get_proxies, get_telegram_accounts
 
 urllib3.disable_warnings()
